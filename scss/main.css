@@ -87,26 +87,19 @@ h1 {
 }
 
 .content__block-button {
-  width: 190px;
-  padding: 10px;
-  height: 60px;
-  background-color: #f97d44;
-  border-radius: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 20px;
-  margin: auto;
-  margin-top: 40px;
-  font-family: "Montserrat";
-}
-
-.content__block-button:hover {
-  cursor: pointer;
-  background-color: #f1986c;
-  transition: 0.7s;
+  background: #f97d44;
   color: white;
+  font-weight: bold;
+  border-radius: 64px;
+  transition: 250ms;
+  padding: 16px;
+  font-size: 32px;
+}
+.content__block-button:hover {
+  background: white;
+  color: #f97d44;
+  transition: 250ms;
+  cursor: pointer;
 }
 
 .content__image {
