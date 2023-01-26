@@ -79,25 +79,24 @@ h1 {
 }
 .content__block {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   height: 100px;
   align-items: center;
 }
 .content__block-button {
-    background: $main-orange;
-    color: white;
-    font-weight: bold;
-    border-radius: 64px;
+  background: $main-orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 64px;
+  transition: 250ms;
+  padding: 16px;
+  font-size: 32px;
+  &:hover {
+    background: $second-orange;
     transition: 250ms;
-    padding: 16px;
-    font-size: 32px;
-    &:hover {
-      background: white;
-      color: $main-orange;
-      transition: 250ms;
-      cursor: pointer;
-    }
-    }
+    cursor: pointer;
+  }
+}
 .content__image {
   display: flex;
   justify-content: space-around;
@@ -180,5 +179,5 @@ h1, h4{
   color: white;
   border-radius: 20px;
   padding: 20px 30px;
-  transition: 0.5s;
+  transition: 0.25s;
 }
