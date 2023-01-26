@@ -120,6 +120,7 @@ footer {
   height: 250px;
   background: whitesmoke;
   margin: 0;
+  margin-top: 64px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
