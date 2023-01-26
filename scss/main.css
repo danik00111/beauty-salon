@@ -81,7 +81,7 @@ h1 {
 
 .content__block {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   height: 100px;
   align-items: center;
 }
@@ -96,8 +96,7 @@ h1 {
   font-size: 32px;
 }
 .content__block-button:hover {
-  background: white;
-  color: #f97d44;
+  background: #f1986c;
   transition: 250ms;
   cursor: pointer;
 }
@@ -127,11 +126,7 @@ h1 {
   transition: 0.7s;
 }
 
-.footer-title {
-  font-family: "Montserrat";
-}
-
-h5 {
+.footer-title, h5 {
   font-family: "Montserrat";
 }
 
@@ -205,5 +200,5 @@ h1, h4 {
   color: white;
   border-radius: 20px;
   padding: 20px 30px;
-  transition: 0.5s;
+  transition: 0.25s;
 }/*# sourceMappingURL=main.css.map */
