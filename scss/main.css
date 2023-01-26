@@ -13,8 +13,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-header .img {
-  margin-left: 16px;
+header img {
+  width: 128px;
+  height: 64px;
 }
 header .btn {
   padding: 16px;
