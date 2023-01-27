@@ -63,6 +63,10 @@ img {
   }
 }
 //!
+h1.text {
+  font-size: 32px;
+  font-weight: bold;
+}
 .content__block-text {
   font-size: 25px;
   font-family: 'Montserrat';
@@ -80,11 +84,17 @@ h1 {
   max-width: 1550px;
 }
 .content__find-us {
-  margin-bottom: 32px;
+  margin-bottom: 64px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+.flex {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
 }
 .content__block {
   display: flex;
@@ -184,12 +194,8 @@ h1, h4{
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.flex {
-  margin-top: 32px;
-  display: flex;
-  justify-content: center;
-}
   .button2 {
+  margin-bottom: 32px;
   background: $main-orange;
   color: white;
   width: fit-content;
