@@ -9,17 +9,25 @@ body {
 
 header {
   width: 95%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.hdr {
+  width: 95%;
+  height: 15%;
   height: 64px;
+  margin: 0 auto;
   margin: 16px auto 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-header img {
+.hdr img {
   width: 128px;
   height: 64px;
 }
-header .btn {
+.hdr .btn {
   padding: 16px;
   margin-right: 16px;
   border: white solid 2px;
@@ -27,7 +35,7 @@ header .btn {
   transition: 250ms;
   font-weight: bold;
 }
-header .btn:hover {
+.hdr .btn:hover {
   background: white;
   color: #f97d44;
   transition: 250ms;
@@ -35,10 +43,13 @@ header .btn:hover {
 }
 
 .page1 {
-  margin-top: 64px;
+  background: url(https://images.pexels.com/photos/13534508/pexels-photo-13534508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  height: 80%;
+  margin-top: 5%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 .page1 h1 {
