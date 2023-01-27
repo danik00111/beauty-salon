@@ -37,7 +37,7 @@ header {
 }
 .hdr .btn:hover {
   background: white;
-  color: #f97d44;
+  color: #b54896;
   transition: 250ms;
   cursor: pointer;
 }
@@ -49,7 +49,7 @@ header {
   margin-top: 5%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .page1 h1 {
@@ -57,7 +57,7 @@ header {
   text-align: center;
 }
 .page1 .btn {
-  background: #f97d44;
+  background: #b54896;
   color: white;
   font-weight: bold;
   border-radius: 64px;
@@ -67,7 +67,7 @@ header {
 }
 .page1 .btn:hover {
   background: white;
-  color: #f97d44;
+  color: #b54896;
   transition: 250ms;
   cursor: pointer;
 }
@@ -120,7 +120,7 @@ h1 {
 }
 
 .content__block-button {
-  background: #f97d44;
+  background: #b54896;
   color: white;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -132,7 +132,7 @@ h1 {
   font-size: 32px;
 }
 .content__block-button:hover {
-  background: #f1986c;
+  background: #c062a5;
   transition: 250ms;
   cursor: pointer;
 }
@@ -212,7 +212,7 @@ h1, h4 {
 }
 .layer:hover .button {
   transition: 250ms ease-in-out;
-  background: #f97d44;
+  background: #b54896;
   color: white;
 }
 
@@ -241,7 +241,7 @@ h1, h4 {
 
 .button2 {
   margin-bottom: 32px;
-  background: #f97d44;
+  background: #b54896;
   color: white;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -253,7 +253,7 @@ h1, h4 {
   font-size: 32px;
 }
 .button2:hover {
-  background: #f1986c;
+  background: #c062a5;
   transition: 250ms ease-in-out;
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
