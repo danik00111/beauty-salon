@@ -81,6 +81,7 @@ h1 {
 }
 
 .content__find-us {
+  margin-bottom: 32px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -192,7 +193,8 @@ h1, h4 {
   border-radius: 50px;
   transition: 250ms ease-in-out;
 }
-.button:hover {
+
+#button:hover {
   background: #f1986c;
   transition: 250ms ease-in-out;
   cursor: pointer;

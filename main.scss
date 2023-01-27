@@ -80,6 +80,7 @@ h1 {
   max-width: 1550px;
 }
 .content__find-us {
+  margin-bottom: 32px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -165,16 +166,15 @@ h1, h4{
   }}
 .button {
   padding: 16px;
-  background: #00000000;
-  color: #00000000;
+  background: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
   border-radius: 50px;
   transition: 250ms ease-in-out;
-  &:hover {
-    background: $lighter-orange;
-    color: white;
-    transition: 250ms ease-in-out;
-    cursor: pointer;
-  }
+}
+#button:hover {
+  background: #f1986c;
+  transition: 250ms ease-in-out;
+  cursor: pointer;
 }
 .container1{
   justify-content: center;
