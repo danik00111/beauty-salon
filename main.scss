@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 $main-pink: #b54896;
 $lighter-pink: #c062a5;
-$main-cyan: #7fb7cb;
 
 html,
 body {
   font-family: "Montserrat";
-  background: $main-cyan;
+  background: #7fb7cb;
   margin: 0;
   padding: 0;
 }
@@ -205,8 +204,8 @@ h1, h4{
   }}
 .button {
   padding: 16px;
-  background: rgba(0, 0, 0, 0);
-  color: rgba(0, 0, 0, 0);
+  background: #00000000;
+  color: #00000000;
   border-radius: 50px;
   transition: 250ms ease-in-out;
 }
