@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 $main-orange: #f97d44;
-$second-orange: #f1986c;
+$lighter-orange: #f1986c;
 $main-cyan: #7fb7cb;
 
 html,
@@ -101,7 +101,7 @@ h1 {
   padding: 16px;
   font-size: 32px;
   &:hover {
-    background: $second-orange;
+    background: $lighter-orange;
     transition: 250ms;
     cursor: pointer;
   }
@@ -170,7 +170,8 @@ h1, h4{
   border-radius: 50px;
   transition: 250ms ease-in-out;
   &:hover {
-    background: $second-orange;
+    background: $lighter-orange;
+    color: $main-orange;
     transition: 250ms ease-in-out;
     cursor: pointer;
   }
@@ -197,7 +198,7 @@ h1, h4{
   padding: 16px;
   font-size: 32px;
   &:hover {
-    background: $second-orange;
+    background: $lighter-orange;
     transition: 250ms ease-in-out;
     cursor: pointer;
   }
